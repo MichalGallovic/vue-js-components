@@ -6249,6 +6249,42 @@ table {
   background-color: #f8fafc;
 }
 
+.tags-input {
+  border-width: 1px;
+  border-color: #dae1e7;
+  border-radius: .25rem;
+  color: #3d4852;
+  font-size: .75rem;
+  outline: 0;
+  padding: .25rem;
+  background-color: #f8fafc;
+}
+
+.tags-input:focus {
+  background-color: #fff;
+  border-color: #6cb2eb;
+}
+
+.btn {
+  @apply btn rounded font-bold px-2 py-1 text-xs;
+  border-radius: .25rem;
+  font-weight: 700;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: .75rem;
+}
+
+.btn-blue {
+  background-color: #3490dc;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #2779bd;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

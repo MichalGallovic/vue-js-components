@@ -20,3 +20,19 @@
 .bg-presentation {
 	@apply p-16 min-h-screen min-w-full bg-grey-lightest;
 }
+
+.tags-input {
+	@apply border border-grey-light rounded text-grey-darkest text-xs outline-none p-1 bg-grey-lightest;
+}
+.tags-input:focus {
+	@apply bg-white border-blue-light;
+}
+.btn {
+	@apply btn rounded font-bold px-2 py-1 text-xs;
+}
+.btn-blue {
+	@apply bg-blue text-white;
+}
+.btn:hover {
+	@apply bg-blue-dark;
+}
