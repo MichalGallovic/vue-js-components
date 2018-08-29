@@ -5,7 +5,8 @@ import Vue from 'vue'
 // import App from './SlotsApp.vue'
 // import App from './ScopedSlotsApp.vue'
 // import App from './RenderFunctionApp.vue'
-import App from './FetchJsonContactListApp.vue'
+// import App from './FetchJsonContactListApp.vue'
+import App from './RenderlessTagsInputApp.vue'
 
 Vue.config.productionTip = false
 

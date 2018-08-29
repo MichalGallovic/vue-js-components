@@ -20,6 +20,9 @@
 .bg-presentation {
 	@apply p-16 min-h-screen min-w-full bg-grey-lightest;
 }
+.tags {
+	@apply bg-white rounded shadow-md max-w-xs p-4;
+}
 
 .tags-input {
 	@apply border border-grey-light rounded text-grey-darkest text-xs outline-none p-1 bg-grey-lightest;

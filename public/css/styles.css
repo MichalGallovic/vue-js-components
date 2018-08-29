@@ -6249,6 +6249,14 @@ table {
   background-color: #f8fafc;
 }
 
+.tags {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+  max-width: 20rem;
+  padding: 1rem;
+}
+
 .tags-input {
   border-width: 1px;
   border-color: #dae1e7;
