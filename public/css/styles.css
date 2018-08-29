@@ -6285,6 +6285,22 @@ table {
   background-color: #2779bd;
 }
 
+.card-content {
+  padding: 1rem;
+}
+
+.card-heading {
+  margin-top: .5rem;
+}
+
+.card-body {
+  margin-top: 1rem;
+  font-size: .875rem;
+  color: #606f7b;
+  text-align: justify;
+  line-height: 1.5;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

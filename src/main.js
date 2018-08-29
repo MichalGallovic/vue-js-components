@@ -1,7 +1,9 @@
 import Vue from 'vue'
 // import App from './NativeControlledComponentsApp.vue'
 // import App from './CustomControlledComponentsApp.vue'
-import App from './WrappingExternalLibrariesApp.vue'
+// import App from './WrappingExternalLibrariesApp.vue'
+import App from './SlotsApp.vue'
+
 
 Vue.config.productionTip = false
 

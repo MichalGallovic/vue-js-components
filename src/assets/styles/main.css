@@ -36,3 +36,13 @@
 .btn:hover {
 	@apply bg-blue-dark;
 }
+
+.card-content {
+	@apply p-4;
+}
+.card-heading {
+	@apply mt-2;
+}
+.card-body {
+	@apply mt-4 text-sm text-grey-darker text-justify leading-normal;
+}
