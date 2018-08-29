@@ -1,5 +1,5 @@
 <template>
-	<input :value="value" ref="input" :placeholder="format">
+	<input class="input" :value="value" ref="input" :placeholder="format">
 </template>
 
 <script>
