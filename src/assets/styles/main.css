@@ -1,6 +1,22 @@
-/*
+/**
  * Use tailwindd CSS framework
  */
 @tailwind preflight;
 @tailwind components;
 @tailwind utilities;
+
+/**
+ * Custom tailwind components
+ */
+
+.input {
+	@apply border rounded border-grey-light outline-none text-xs p-1 leading-tight;	
+}
+
+.input:focus {
+	@apply border-blue-light;
+}
+
+.bg-presentation {
+	@apply p-16 min-h-screen min-w-full bg-grey-lightest;
+}
