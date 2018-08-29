@@ -20,6 +20,10 @@
 
 <script>
 export default {
+	model: {
+		prop: 'tags',
+		event: 'update:tags'
+	},
 	props: ['tags'],
 	data () {
 		return {

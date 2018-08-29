@@ -1,6 +1,6 @@
 <template>
 	<div id="app" class="container bg-presentation">
-		<tags-input :tags="tags" @update:tags="newTags => tags = newTags"></tags-input>
+		<tags-input v-model="tags"></tags-input>
 	</div>
 </template>
 
