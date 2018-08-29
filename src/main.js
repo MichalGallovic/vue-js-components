@@ -3,7 +3,8 @@ import Vue from 'vue'
 // import App from './CustomControlledComponentsApp.vue'
 // import App from './WrappingExternalLibrariesApp.vue'
 // import App from './SlotsApp.vue'
-import App from './ScopedSlotsApp.vue'
+// import App from './ScopedSlotsApp.vue'
+import App from './RenderFunctionApp.vue'
 
 Vue.config.productionTip = false
 
