@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "tailwind:css": "./node_modules/.bin/tailwind build ./src/assets/styles/main.css -c ./tailwind-config.js -o ./public/css/styles.css",
+    "serve": "yarn run tailwind:css && vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "tailwindcss": "^0.6.5",
     "vue": "^2.5.17"
   },
   "devDependencies": {

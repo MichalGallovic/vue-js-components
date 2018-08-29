@@ -1,0 +1,6 @@
+/*
+ * Use tailwindd CSS framework
+ */
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
