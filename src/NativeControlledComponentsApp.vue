@@ -20,6 +20,20 @@
 			<!-- radio v-model is a shorthand for -->
 			<input type="radio" value="One" v-bind:checked="radio == 'One'" @change="e => radio = e.target.value" class="mt-4">
 			<input type="radio" value="Two" v-bind:checked="radio == 'Two'" @change="e => radio = e.target.value" class="mt-4">
+
+			<select v-model="select" class="mt-4 input max-w-xs">
+				<option disabled value="">Please select one</option>
+				<option>A</option>
+				<option>B</option>
+				<option>C</option>
+			</select>
+			<!-- select v-model is a shorthand for -->
+			<select v-bind:value="select" @input="e => select = e.target.value" class="mt-4 input max-w-xs">
+				<option disabled value="">Please select one</option>
+				<option>A</option>
+				<option>B</option>
+				<option>C</option>
+			</select>
 		</div>
 	</div>
 </template>
@@ -31,7 +45,8 @@ export default {
 			input: "",
 			textarea: "",
 			checkbox: false,
-			radio: ""
+			radio: "",
+			select: ""
 		}
 	}
 }
