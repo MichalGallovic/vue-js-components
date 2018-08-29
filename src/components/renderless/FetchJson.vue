@@ -14,6 +14,7 @@ export default {
                 setTimeout(() => {
                     this.response = response
                     this.loading = false;
+                    this.$emit("onDataFetched", this.response);
                 }, 2000);
         });
     },
