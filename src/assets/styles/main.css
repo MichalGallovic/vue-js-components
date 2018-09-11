@@ -36,10 +36,21 @@
 .btn-blue {
 	@apply bg-blue text-white;
 }
-.btn:hover {
+.btn-red {
+	@apply bg-red text-white;
+}
+.btn-red:hover {
+	@apply bg-red-dark;
+}
+.btn-blue:hover {
 	@apply bg-blue-dark;
 }
-
+.btn-grey {
+	@apply bg-grey text-white;
+}
+.card {
+	@apply max-w-xs rounded-lg overflow-hidden flex flex-col shadow-md;
+}
 .card-content {
 	@apply p-4;
 }
@@ -48,4 +59,13 @@
 }
 .card-body {
 	@apply mt-4 text-sm text-grey-darker text-justify leading-normal;
+}
+.bg-grey-transparent {
+	background-color: rgba(0,0,0,0.5);
+}
+.modal-backdrop {
+	@apply fixed pin-t pin-l pin-b pin-r overflow-auto bg-grey-transparent;
+}
+.modal {
+	@apply mx-auto max-w-xs mt-16 bg-white p-4 rounded;
 }
