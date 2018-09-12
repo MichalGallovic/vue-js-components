@@ -1,18 +1,18 @@
 <template>
 	<div id="app" class="container bg-presentation">
-		<renderless-hello-world>
-			<p slot-scope="{ text }">
-				{{ text }}
-			</p>
-		</renderless-hello-world>
+		<counter>
+			<div slot-scope="{ counter, increment, decrement }">
+				<span>{{ counter }}</span>
+				<button class="btn btn-blue ml-4" @click="increment">Increment</button>
+				<button class="btn btn-red ml-4" @click="decrement">Decrement</button>
+			</div>
+		</counter>
 	</div>
 </template>
 
 <script>
-import RenderlessHelloWorld from './components/renderless/RenderlessHelloWorld.vue'
+import Counter from './components/renderless/RenderlessCounter.vue'
 export default {
-	components: {
-		RenderlessHelloWorld
-	}
+	components: { Counter }
 }
 </script>

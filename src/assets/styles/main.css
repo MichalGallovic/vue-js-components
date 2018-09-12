@@ -36,7 +36,12 @@
 .btn:hover {
 	@apply bg-blue-dark;
 }
-
+.btn-red {
+	@apply bg-red text-white;
+}
+.btn-red:hover {
+	@apply bg-red-dark;
+}
 .card-content {
 	@apply p-4;
 }
